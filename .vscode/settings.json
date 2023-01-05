@@ -1,0 +1,22 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": false
+  },
+  "stylelint.configFile": ".stylelintrc.json",
+  "stylelint.validate": ["css", "typescriptreact"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "jest.jestCommandLine": "pnpm run test"
+}

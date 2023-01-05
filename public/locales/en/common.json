@@ -1,0 +1,251 @@
+{
+  "title": "Your web3 username",
+  "description": "Your identity across web3, one name for all your crypto addresses, and your decentralised website.",
+  "loading": "Loading",
+  "unsupportedNetwork": "Unsupported network",
+  "action": {
+    "cancel": "Cancel",
+    "change": "Change",
+    "upload": "Upload",
+    "close": "Close",
+    "save": "Save",
+    "edit": "Edit",
+    "view": "View",
+    "clear": "Clear",
+    "update": "Update",
+    "learnMore": "Learn more",
+    "send": "Send",
+    "next": "Next",
+    "add": "Add",
+    "set": "Set",
+    "search": "Search",
+    "back": "Back",
+    "continue": "Continue",
+    "confirm": "Confirm",
+    "remove": "Remove",
+    "sign": "Sign",
+    "reset": "Reset",
+    "transfer": "Transfer",
+    "tryAgain": "Try Again",
+    "done": "Done",
+    "burnSelected": "Burn Selected",
+    "extend": "Extend",
+    "delete": "Delete",
+    "sort": "Sort",
+    "check": "Check",
+    "claim": "Claim",
+    "remindMe": "Remind Me",
+    "begin": "Begin",
+    "finish": "Finish",
+    "skip": "Skip",
+    "changeNetwork": "Change Network"
+  },
+  "unit": {
+    "years_one": "{{count}} year",
+    "years_other": "{{count}} years",
+    "yrs_one": "{{count}} yr",
+    "yrs_other": "{{count}} yrs",
+    "gas": "{{value}} gas",
+    "selected": "{{count}} selected",
+    "perPage": "{{count}} per page"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "developers": "Developers",
+    "community": "Community",
+    "faq": "FAQ",
+    "help": "Help",
+    "governance": "Governance",
+    "docs": "Docs",
+    "bugBounty": "Bug Bounty",
+    "mediaKit": "Media Kit",
+    "back": "Back",
+    "names": "Names",
+    "favourites": "Favourites",
+    "settings": "Settings"
+  },
+  "wallet": {
+    "myProfile": "Profile",
+    "disconnect": "Disconnect",
+    "connect": "Connect Wallet",
+    "noPrimaryName": "No Primary Name",
+    "viewProfile": "View Profile",
+    "viewDetails": "View Details"
+  },
+  "name": {
+    "expires": "Expires",
+    "noExpiry": "No expiry",
+    "registrant": "Registrant",
+    "controller": "Controller",
+    "dnsOwner": "DNS Owner",
+    "owner": "Owner",
+    "manager": "Manager",
+    "all": "All Names",
+    "expiresInYears_one": "Expires in {{count}} year",
+    "expiresInYears_other": "Expires in {{count}} years",
+    "expiresInMonths_one": "Expires in {{count}} month",
+    "expiresInMonths_other": "Expires in {{count}} months",
+    "expiresInDays_one": "Expires in {{count}} day",
+    "expiresInDays_other": "Expires in {{count}} days",
+    "extend": "Extend",
+    "send": "Send",
+    "transfer": "Transfer",
+    "sendManager": "Send Manager",
+    "sendOwner": "Send Owner"
+  },
+  "address": {
+    "label": "Address",
+    "viewAddress": "View address",
+    "copyAddress": "Copy address"
+  },
+  "records": {
+    "label": "Records"
+  },
+  "sortTypes": {
+    "expiryDate": "Expiry date",
+    "labelName": "Name",
+    "creationDate": "Creation date"
+  },
+  "errors": {
+    "noResults": "No results found"
+  },
+  "transaction": {
+    "description": {
+      "setName": "Set name",
+      "setRecords": "Set records",
+      "test": "Test transaction",
+      "addSuccess": "Add success",
+      "sendName": "Send name",
+      "migrateProfile": "Migrate profile",
+      "migrateProfileWithSync": "Migrate and update profile",
+      "wrapName": "Wrap name",
+      "updateResolver": "Update resolver",
+      "updateProfile": "Update profile",
+      "setPrimaryName": "Set primary name",
+      "updateEthAddress": "Update ETH address",
+      "testSendName": "Send name",
+      "burnFuses": "Burn permissions",
+      "createSubname": "Create subname",
+      "deleteSubname": "Delete subname",
+      "extendNames": "Extend names",
+      "importDNSSECName": "import DNSSEC name",
+      "commitName": "Start timer",
+      "registerName": "Register name",
+      "approveNameWrapper": "Approve NameWrapper",
+      "clearRecords": "Clear records",
+      "updateRecords": "Update records",
+      "transferName": "Transfer name"
+    },
+    "info": {
+      "sendName": "Set the controller and registrant of the name",
+      "migrateProfile": "Set existing records on new resolver",
+      "migrateProfileWithSync": "Set existing records on new resolver",
+      "wrapName": "Wrap name and set new resolver",
+      "updateResolver": "Change resolver to",
+      "updateProfile": "Update records on existing resolver",
+      "setPrimaryName": "Set the primary name for your address",
+      "updateEthAddress": "Update ETH address to this address",
+      "testSendName": "Set the controller and registrant of the name",
+      "createSubname": "Create a new subname on the name",
+      "burnFuses": "Burn the chosen permissions until name expiry",
+      "commitName": "Start timer to register name",
+      "approveNameWrapper": "Approve the NameWrapper to manage your names"
+    },
+    "itemLabel": {
+      "name": "Name",
+      "address": "Address",
+      "action": "Action",
+      "info": "Info",
+      "to": "To",
+      "subname": "Subname",
+      "duration": "Duration",
+      "cost": "Cost",
+      "update": "Update"
+    },
+    "itemValue": {
+      "records_one": "{{count}} record",
+      "records_other": "{{count}} records"
+    },
+    "status": {
+      "pending": {
+        "regular": "Pending"
+      },
+      "confirmed": {
+        "regular": "Confirmed",
+        "notifyTitle": "Transaction Successful",
+        "notifyMessage": "Your \"{{action}}\" transaction was successful"
+      },
+      "failed": {
+        "regular": "Failed",
+        "notifyTitle": "Transaction Failure",
+        "notifyMessage": "Your \"{{action}}\" transaction failed and was reverted"
+      }
+    },
+    "dialog": {
+      "intro": {
+        "trailingButton": "Start",
+        "trailingButtonResume": "Resume",
+        "step": "Step {{step}}"
+      },
+      "confirm": {
+        "title": "Confirm Details",
+        "message": "Double check these details before confirming in your wallet.",
+        "waitingForWallet": "Waiting for Wallet",
+        "openWallet": "Open Wallet"
+      },
+      "sent": {
+        "title": "Transaction Sent",
+        "message": "Your transaction is now in progress, you can close this and come back later.",
+        "progress": {
+          "title": "Sent",
+          "message": "Taking longer than expected"
+        }
+      },
+      "complete": {
+        "title": "Transaction Complete",
+        "message": "Your transaction is now complete!",
+        "progress": {
+          "title": "Done"
+        }
+      },
+      "failed": {
+        "title": "Transaction Failed",
+        "progress": {
+          "title": "Failed"
+        }
+      },
+      "error": {
+        "gasLimit": "The gas limit on your transaction wasn't high enough, please try again."
+      }
+    },
+    "viewEtherscan": "View on Etherscan",
+    "viewMore": "View More"
+  },
+  "search": {
+    "label": "Name search",
+    "placeholder": "Search for a name",
+    "emptyText": "Type a name or address to search...",
+    "address": "Address",
+    "errors": {
+      "tooShort": "Name too short",
+      "invalid": "Invalid format for name"
+    },
+    "status": {
+      "registered": "Registered",
+      "gracePeriod": "Grace Period",
+      "premium": "Temporary Premium",
+      "available": "Available",
+      "notOwned": "Not Owned",
+      "notImported": "Not Imported",
+      "short": "Too Short",
+      "default": "Invalid",
+      "unsupportedTLD": "Not Supported"
+    }
+  },
+  "selectableInput": {
+    "add": "Add",
+    "placeholder": "Select an option",
+    "empty": "No options found"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "checkJs": true,
+      "plugins": [
+        {
+          "name": "typescript-styled-plugin",
+          "tags": ["styled", "css", "mq"]
+        }
+      ]
+    }
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "downlevelIteration": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "types": ["jest", "@cloudflare/workers-types"],
+    "incremental": true,
+    "paths": {
+      "@app/*": ["./src/*"],
+      "@public/*": ["./public/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "tags": ["styled", "css", "mq"],
+        "validate": false,
+        "lint": {
+          "validProperties": ["flex-gap"]
+        }
+      }
+    ]
+  },
+  "include": ["next-env.d.ts", "mdx.d.ts", "**/*.ts", "**/*.tsx", "e2e/tsconfig.json"],
+  "exclude": ["custom-test-env.js", "e2e/**/*", "**/*.ignore.ts", "**/*.ignore.tsx"]
+}
